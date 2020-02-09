@@ -1,0 +1,106 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url('img/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#bg{
+    background-color: rgb(22, 22, 99);
+    opacity: 0.5;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.navJog{
+    width: 72px;
+    height: 96px;
+    background-image: url('img/penguin_ship.png');
+    position: absolute;
+    z-index: 1;
+}
+
+.telaMsg{
+    position: absolute;
+    display: none;
+}
+
+.tiroDisparado{
+    width: 11px;
+    height: 27px;
+    background-image: url('img/tiro.png');
+    position: absolute;
+}
+
+.inimigoCriado{
+    width: 80px;
+    height: 80px;
+    background-image: url('img/inimigo.png');
+    position: absolute;
+}
+
+#score {
+    padding-top: 10px;
+    background-color: rgb(114, 28, 26);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+#textScore{
+    padding-top: 10px;
+    background-color: mediumaquamarine;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0 10px 10px 0px;
+}
+
+#infected {
+    padding-top: 10px;
+    background-color: rgb(114, 28, 26);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+#textInfected{
+    margin-top: 15px;
+    padding-top: 10px;
+    background-color: mediumaquamarine;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0 10px 10px 0px;
+}
+
+.button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
