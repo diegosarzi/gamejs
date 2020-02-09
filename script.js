@@ -77,7 +77,7 @@ function teclaUp(){
 // Função para criar um novo inimigo
 function criarInimigo(){
 
-    let random = Math.random()*window.innerWidth
+    let random = Math.random()*(window.innerWidth - 80)
 
     // Criar div do inimigo
     inimigo = document.createElement('div')
@@ -88,7 +88,7 @@ function criarInimigo(){
 
     // Seta valores a classe inimigoCriado
     atributoClass.value = "inimigoCriado"
-    atributoStyle.value = "top:-85px; left:" + (random - 80) + "px"
+    atributoStyle.value = "top:-85px; left:" + random + "px"
     
     // Atribui os valores a classe inimigoCriado
     inimigo.setAttributeNode(atributoClass)
