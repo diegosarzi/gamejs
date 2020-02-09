@@ -88,7 +88,7 @@ function criarInimigo(){
 
     // Seta valores a classe inimigoCriado
     atributoClass.value = "inimigoCriado"
-    atributoStyle.value = "top:-85px; left:" + random + "px"
+    atributoStyle.value = "top:-85px; left:" + (random - 80) + "px"
     
     // Atribui os valores a classe inimigoCriado
     inimigo.setAttributeNode(atributoClass)
