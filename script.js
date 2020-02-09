@@ -9,8 +9,8 @@ let tempoInimigo = 2500
 let scoreNumber = 0
 let scoreInfecteds = 0
 let refreshInterval
-let fimDead = 5
-let fimInfected = 5
+let fimDead = 100
+let fimInfected = 100
 
 function resetaJogo(){
     location.reload()
@@ -300,10 +300,10 @@ function start(){
     yPosicaoJogador = tamanhoTelaAltura / 2
 
     // Definir velocidade do jogador
-    velJogador = 10
+    velJogador = 12
 
     // Velocidade do tiro
-    velTiro = 12
+    velTiro = 14
 
     // Velocidade do inimigo
     velInimigo = 2
